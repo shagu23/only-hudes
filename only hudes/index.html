@@ -1,60 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Only Hudes</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Hudes</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<header class="hero">
-<h1>ONLY HUDES</h1>
-<p>Pasta • Coffee • More</p>
-</header>
 
-<section>
-<h2>Pasta</h2>
-<div class="grid">
-<div class="card"><h3>Red Sauce</h3><p>₹129</p></div>
-<div class="card"><h3>White Sauce</h3><p>₹129</p></div>
-<div class="card"><h3>Mix Sauce</h3><p>₹139</p></div>
-</div>
-</section>
+    <header class="hero">
 
-<section>
-<h2>Cold Coffee</h2>
-<div class="grid">
-<div class="card"><h3>Classic Cold Coffee</h3><p>₹69</p></div>
-<div class="card"><h3>Vanilla</h3><p>₹79</p></div>
-<div class="card"><h3>Dark Chocolate</h3><p>₹99</p></div>
-</div>
-</section>
+        <nav>
 
-<section>
-<h2>Sandwiches</h2>
-<div class="grid">
-<div class="card"><h3>Veggie</h3><p>₹69</p></div>
-<div class="card"><h3>Cheese Garlic</h3><p>₹89</p></div>
-<div class="card"><h3>Paneer</h3><p>₹89</p></div>
-</div>
-</section>
+            <img src="images/logo.png" class="logo" alt="Only Hudes">
 
-<section>
-<h2>Burgers</h2>
-<div class="grid">
-<div class="card"><h3>Paneer Patty</h3><p>₹119</p></div>
-<div class="card"><h3>Peri Peri Aloo</h3><p>₹89</p></div>
-<div class="card"><h3>Mayo Corn</h3><p>₹89</p></div>
-</div>
-</section>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#coffee">Coffee</a></li>
+                <li><a href="#pasta">Pasta</a></li>
+                <li><a href="#burger">Burger</a></li>
+            </ul>
 
-<section>
-<h2>Special</h2>
-<div class="card"><h3>The Toxic Bowl</h3><p>₹89</p></div>
-</section>
+        </nav>
 
-<footer>
-<p>Only Hudes © 2026</p>
-</footer>
+        <div class="hero-content">
+
+            <h1>Only Hudes</h1>
+
+            <p>Pastaa • Coffee • Moree</p>
+
+            <a href="#menu" class="btn">
+                Explore Menu
+            </a>
+
+        </div>
+
+    </header>
+
+    <section id="menu">
+
+        <h2>Our Signature Menu</h2>
+
+        <div class="menu-grid">
+
+            <div class="card">
+                <img src="images/mixed-signals.jpg">
+                <h3>Mixed Signals</h3>
+                <p>Mix Sauce Pasta</p>
+                <span>₹139</span>
+            </div>
+
+            <div class="card">
+                <img src="images/red-flag.jpg">
+                <h3>Red Flag</h3>
+                <p>Red Sauce Pasta</p>
+                <span>₹129</span>
+            </div>
+
+            <div class="card">
+                <img src="images/smooth-criminal.jpg">
+                <h3>Smooth Criminal</h3>
+                <p>White Sauce Pasta</p>
+                <span>₹129</span>
+            </div>
+
+            <div class="card">
+                <img src="images/cold-hearted.jpg">
+                <h3>Cold Hearted</h3>
+                <p>Classic Cold Coffee</p>
+                <span>₹69</span>
+            </div>
+
+            <div class="card">
+                <img src="images/dark-seduction.jpg">
+                <h3>Dark Seduction</h3>
+                <p>Dark Chocolate Coffee</p>
+                <span>₹99</span>
+            </div>
+
+            <div class="card">
+                <img src="images/one-night-sip.jpg">
+                <h3>One Night Sip</h3>
+                <p>Vanilla Coffee</p>
+                <span>₹79</span>
+            </div>
+
+            <div class="card">
+                <img src="images/cheese-me-garlic.jpg">
+                <h3>Cheese Me Garlic</h3>
+                <p>Cheese Garlic Sandwich</p>
+                <span>₹89</span>
+            </div>
+
+            <div class="card">
+                <img src="images/delulu-paneer.jpg">
+                <h3>Delulu Paneer</h3>
+                <p>Paneer Sandwich</p>
+                <span>₹89</span>
+            </div>
+
+            <div class="card">
+                <img src="images/ramen-me-hard.jpg">
+                <h3>Ramen Me Hard</h3>
+                <p>Paneer Patty Burger</p>
+                <span>₹119</span>
+            </div>
+
+            <div class="card">
+                <img src="images/mayo-be-baby.jpg">
+                <h3>Mayo Be Baby</h3>
+                <p>Mayo Corn Burger</p>
+                <span>₹89</span>
+            </div>
+
+            <div class="card">
+                <img src="images/peri-peri-naughty.jpg">
+                <h3>Peri Peri Naughty</h3>
+                <p>Peri Peri Aloo Burger</p>
+                <span>₹89</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <img src="images/logo.png" class="footer-logo">
+
+        <h3>Only Hudes</h3>
+
+        <p>Pastaa • Coffee • Moree</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
